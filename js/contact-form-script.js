@@ -21,17 +21,9 @@ function submitForm(){
 
     $.ajax({
         type: "POST",
-        url: "php/form-process.php",
-        data: "name=" + name + "&email=" + email + "&msg_subject=" + msg_subject + "&message=" + message,
-        success : function(text){
-            if (text == "success"){
-                formSuccess();
-            } else {
-                formError();
-                submitMSG(false,text);
-            }
-        }
-    });
+        url: "https://script.google.com/macros/s/AKfycbx8hLxqO4RZsAF9uXXHmnB3Ic6VJVYaURyjmgOP9qfjypsraBCNTlvA7WF0JNZPJNKIsA/exec",
+        data: "name=" + name + "&email=" + email + "&msg_subject=" + msg_subject + "&message=" + message
+});
 }
 
 function formSuccess(){
