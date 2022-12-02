@@ -29,7 +29,7 @@ function submitForm(){
 
 function formSuccess(){
     $("#contactForm")[0].reset();
-    submitMSG(true, "Message Submitted!")
+    submitMSG(true, "Revenim cu un mesaj în curând!")
 }
 
 function formError(){
