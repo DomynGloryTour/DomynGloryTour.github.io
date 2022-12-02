@@ -7,6 +7,7 @@ $("#contactForm").validator().on("submit", function (event) {
         // everything looks good!
         event.preventDefault();
         submitForm();
+         formSuccess();
     }
 });
 
