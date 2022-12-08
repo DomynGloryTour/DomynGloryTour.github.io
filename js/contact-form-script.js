@@ -22,7 +22,7 @@ function submitForm(){
 
     $.ajax({
         type: "POST",
-        url: "https://script.google.com/macros/s/AKfycbzfuDS8WTQKRWki_56WNdb3t4Wif-CFW9q5o8BVybUk6FehLsQ-JJ_NwlrtvcNld8lR/exec",
+        url: "https://script.google.com/macros/s/AKfycbyzRlMV7dvDRDYmOGMkb5Oep0ApLZ6P_D5rkW29KEhN8WybIujwth_ABQTT195iufoc/exec",
         data: "name=" + name + "&email=" + email + "&msg_subject=" + msg_subject + "&message=" + message
 });
 }
